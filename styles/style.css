@@ -1,0 +1,174 @@
+:root {
+    background-color: #fff;
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 5.4rem;
+    color: #56a5eb;
+    margin-bottom: 5rem;
+}
+
+h1 > span {
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+/* MAIN CONTAINER */
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.logo {
+    width: 15rem;
+}
+
+.container > * {
+    width: 100%;
+}
+
+.align-left {
+    float: left;
+}
+
+.align-right {
+    float: right;
+}
+
+.align-left, .align-right {
+    width: 50% !important;
+    margin: 0 1rem;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+/* MAIN CONTAINER END */
+
+/* CARD */
+
+.card {
+    border-radius: 1rem;
+    height: 15rem;
+    width: 30rem;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(85, 85, 85, 0.5);
+    padding: 2.5rem 0 0 0 !important;
+}
+
+.cat-icon {
+    font-size: 4.5rem;
+    color: #fff;
+    margin: .5rem 0;
+}
+
+/* CARD END */
+
+/* BUTTONS */
+.btn {
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    width: 20rem;
+    margin: 1rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: #56a5eb;
+    border: 0;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    translate: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+/* BUTTONS END */
+
+
+/* FORM */
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+input {
+    border: .1rem solid #56a6eb9a;
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+}
+
+input:focus {
+    outline: 0;
+    box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+}
+/* FORM END*/
+
+
+

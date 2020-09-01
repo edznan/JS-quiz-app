@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Quiz App | Results</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalScore">0</h1>
+            <form>
+                <input type="text" name="firstname" placeholder="First name" id="firstName">
+                <input type="text" name="lastname" placeholder="Last name" id="lastName">
+
+                <button disabled type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)">Save score</button>
+            </form>
+            <a href="scores.html" class="btn">View highscores</a>
+            <a id="tryAgain" class="btn">Try again</a>
+            <a href="index.html" class="btn">Home</a>
+        </div>
+    </div>
+
+    <script src="js/results.js"></script>
+</body>
+</html>

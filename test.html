@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Quiz app | Test</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/test.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div id="loader" class="justify-center flex-column">
+        </div>
+
+        <div id="ispit" class="justify-center flex-column hidden">
+
+            <div id="test-info">
+                <div id="info-item">
+                    <p class="info-prefix" id="#progressText">
+                        Question
+                    </p>
+                    <div id="progressBar">
+                        <div id="progressBarFull">
+                        </div>
+                    </div>
+                    </h2>
+                </div>
+    
+                <div id="info-item">
+                    <p class="info-prefix">
+                        Score
+                    </p>
+                    <h2 class="info-text-main" id="score">
+                        0
+                    </h2>
+                </div>
+            </div>
+
+            <h2 id="question"></h2>
+            <div class="choice-container">
+                <!-- zamijeniti sa <i class="fas fa-square"></i> -->
+                <p class="choice-prefix"> a </p>
+                <p class="choice-text" data-number="1"></p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix"> b </p>
+                <p class="choice-text" data-number="2"></p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix"> c </p>
+                <p class="choice-text" data-number="3"></p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix"> d </p>
+                <p class="choice-text" data-number="4"></p>
+            </div>
+        </div>
+    </div>
+    <script src="js/test.js"></script>
+</body>
+</html>
