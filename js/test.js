@@ -71,7 +71,7 @@ getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
         // go to finish page
-        return window.location.assign('/results.html');
+        return window.location = 'results.html';
     }
 
     // update the progress bar
